@@ -1,0 +1,61 @@
+//variables
+
+*{box-sizing:border-box;}
+html, body{height:100%; width:100%;}
+
+body{
+	background: darken(white, 90%);
+	padding: 100px;
+	color:darken(white,15%);
+	font-family:Verdana, arial, sans-serif;
+	font-size:16px;
+}
+
+p{
+	width: 60%;
+	margin: 0 0 1.6em 0;
+	font-size:.875em;
+	line-height:1.6em
+}
+a{
+	color: darken(white,25%);
+	text-decoration:none;
+	&:hover{
+		color:darken(white,10%);
+		text-decoration:underline;
+	}
+	&:visited{
+		color: darken(white,25%);
+	}
+}
+ul{
+	margin:0;
+	padding:0;
+	li{
+		list-style:none;
+		margin-bottom: .75em;
+	}
+}
+ol{
+	li{
+		font-size:.875em;
+		margin-bottom:.75em;
+		ol li:nth-child(1){
+			margin-top:.75em;
+		}
+		ol li{
+			font-size:1em;
+		}
+	}
+}
+code{
+	background: black;
+	color:#bada55;
+	padding: 2px 5px;
+	border-radius:2px;
+}
+//layout
+.taco{
+	width:80%;
+	margin: 0 auto;
+}

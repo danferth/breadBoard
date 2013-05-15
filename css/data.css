@@ -1,0 +1,151 @@
+
+/* extras for me */
+*{box-sizing:border-box;}
+html, body{height:100%; width:100%;}
+/* end reset and extras */
+html{
+	background: #aaa;
+	box-shadow:inset 0 0.188em .625em .25em #000;
+}
+body{
+	padding-top:3%;
+background : -webkit-linear-gradient(bottom right, rgba(129, 155, 161, .1) 00%, rgba(255, 255, 255, .75) 50%, rgba(129, 155, 161, .1) 99%);
+background : -moz-linear-gradient(bottom right, rgba(129, 155, 161, .1) 00%, rgba(255, 255, 255, .75) 50%, rgba(129, 155, 161, .1) 99%);
+background : -o-linear-gradient(bottom right, rgba(129, 155, 161, .1) 00%, rgba(255, 255, 255, .75) 50%, rgba(129, 155, 161, .1) 99%);
+background : -ms-linear-gradient(bottom right, rgba(129, 155, 161, .1) 00%, rgba(255, 255, 255, .75) 50%, rgba(129, 155, 161, .1) 99%); 
+background : -linear-gradient(bottom right, rgba(129, 155, 161, .1) 00%, rgba(255, 255, 255, .75) 50%, rgba(129, 155, 161, .1) 99%);
+	font-size:16px;
+	font-family:sans-serif;
+}
+.clear:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.clicked{
+	background:#000;
+	color:#fff;
+}
+h1{
+	font:bold 1.875em/2.813em sans-serif;
+	padding: 0 0 0 1.25em;
+	color: #444;
+}
+p{
+	padding: 0 1.875em;
+	color: #444;
+	font: normal .875em/1.313em sans-serif;
+}
+.taco{
+	width: 700px;
+	height: 90%;
+	margin: 0 0 0 10%;
+}
+header, section, aside{
+	border-radius: 1em;
+}
+header{
+	width: 100%;
+	height:15%;
+	background:white;
+}
+section{
+	float:left;
+	width:75%;
+	height:85%;
+	background:white;
+}
+aside{
+	float:right;
+	background:white;
+	width:25%;
+	height:85%;
+	padding: 3.125em .625em ;
+}
+aside ul li{
+	color: midnightblue;
+	margin-bottom:1em;
+	font:bold 1em/1.5em sans-serif;
+}
+nav ul li{
+	float:left;
+	text-align:center;
+	width:20%;
+	border-top:1px solid black;
+}
+nav ul li a{
+	display:block;
+	text-decoration:none;
+	font:bold 1.125em/2em serif;
+}
+nav ul li:nth-child(1) a{
+	border-radius:0 0 0 1em;
+}
+nav ul li:nth-child(5) a{
+	border-radius:0 0 1em 0;
+}
+nav ul li a:hover{
+	background:black;
+	color:white;
+}
+.fly{
+	border:1px solid blue;
+	width: 400px;
+	height: 300px;
+	position:absolute;
+	top:16%;
+	left: 26%;
+}
+.fly .title{
+	height: 10%;
+	background: #666;
+	font:bold 1em sans-serif;
+	padding: .625em;
+	text-align:left;
+}
+.fly .container{
+	width: 100%;
+	height: 90%;
+	background: #ddd;
+}
+
+@media screen and (min-width:480px) and (max-width:800px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops*/
+
+  
+}
+
+@media screen and (max-width:479px) {
+  /* Target portrait smartphones */
+
+}
+@media only screen and (max-width: 600px) {
+  /* 600 =================================================== */
+
+body{padding:0;}
+.taco{margin:0;}
+.taco, header, section, aside{width:100%;}
+header, section, aside{height:auto;}
+section, aside{float:none;}
+nav ul li{float:none; width:100%;}
+nav ul li:nth-child(1) a{border-radius:0;}
+nav ul li:nth-child(5) a{border-radius:0 0 1em 1em;}
+.fly{position:static; width:100%;}
+}
+@media only screen and (max-width: 780px) {
+  /* 768 =================================================== */
+.taco{margin:0;
+	transition:margin 500ms;}
+}
+@media only screen and (min-width: 992px) {
+  /* 992 =================================================== */
+
+
+}
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* 2x =================================================== 
+  .hello:after{
+  content:" a Smartphone?"
+  }
+}*/
