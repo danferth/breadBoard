@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>testingBoard</title>
-	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="components/normalize-css/normalize.css">
 	<link rel="stylesheet" href="css/style.css" media="all" type="text/css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://htslabs.com/java/prefix.js"></script>
@@ -22,7 +22,7 @@
 	<h2>Links to <em>Test Pages</em></h2>
 	
 	<ul>
-		<li><a href="dingdong.php">dingdong</a></li>
+		<li><a href="dingdong.php">Ding Dong</a></li>
 		<li><a href="linkTest.php">linkTest</a></li>
 		<li><a href="pTag.php">pTag</a></li>
 	</ul>
