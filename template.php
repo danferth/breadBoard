@@ -21,12 +21,9 @@ $jsGo = file_get_contents($js);
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo $title; ?></title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 	<meta name="description" content=<?php echo "\"".$description."\""; ?>>
-	<link rel="stylesheet" href="components/normalize-css/normalize.css">
-	<link rel="stylesheet" href="css/style.css" media="all" type="text/css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="components/prefixfree.min/index.js"></script>
+	<?php include 'assets/links.php'; ?>
 </head>
 <body>
 <div class=<?php echo "\"taco ".$tacoExtraClasses."\""; ?>>
