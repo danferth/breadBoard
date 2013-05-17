@@ -15,6 +15,11 @@ $content = "p_index.html";
 //jQuery at bottom of page
 $jsFile = "";
 
+//-------------------------------------------
+//SET JS PLUGINS
+//-------------------------------------------
+$fitText = true;
+$validation = true;
 
 
 

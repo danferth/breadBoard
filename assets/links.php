@@ -4,7 +4,21 @@ $bowerLocation = "assets/components";
  ?>
 <?php //jQuery at the top ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<?php //jQuery plugins to be loaded from array ?>
+<?php //jQuery plugins to be loaded from boolian
+
+if ($fitText == false) {
+	
+}else{
+	echo "<script src=\"".$bowerLocation."/FitText.js/jquery.fittext.js\"></script>";
+}
+
+if ($validation == false) {
+	
+}else{
+	echo "<script src=\"".$bowerLocation."/jquery.validation/jquery.validate.js\"></script>"; 
+}
+?>
+
 
 
 <?php //REQUIRED CSS ?>

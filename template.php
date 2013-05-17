@@ -26,7 +26,7 @@ $jsGo = file_get_contents($js);
 	<?php include 'assets/links.php'; ?>
 </head>
 <body>
-<div class=<?php echo "\"taco ".$tacoExtraClasses."\""; ?>>
+<div roll="main" class=<?php echo "\"taco ".$tacoExtraClasses."\""; ?>>
 	<h1><?php echo $heading; ?></h1>
 	
 	<?php echo $contentGo; ?>
