@@ -18,8 +18,8 @@ $jsFile = "";
 //-------------------------------------------
 //SET JS PLUGINS
 //-------------------------------------------
-$fitText = true;
-$validation = true;
+$fitText = false;
+$validation = false;
 
 
 
