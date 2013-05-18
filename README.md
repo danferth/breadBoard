@@ -12,6 +12,6 @@ Many times I need to find a bug so need a place to input some code and try to na
 
 Enter **Breadboard**, a playground of sorts.  In a nutshell it's a simple php site that that has a way of creating pages quickly by adding a php page of variables that point to an html page of the code in question and or a js page as well.
 
-For plugin testing, bower is used to populate the assets/components folder.  From there a boolian is used in the variables page to turn on and off the plugins needed for the page.
+For plugin testing, bower is used to populate the assets/components folder.  From there a boolean is used in the variables page to turn on and off the plugins needed for the page.
 
-Rather elemantary and kinda more or less place for me to play...
+Rather elemantary and kinda more or less a place for me to play...
