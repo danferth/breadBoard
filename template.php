@@ -26,12 +26,18 @@ $jsGo = file_get_contents($js);
 	<?php include 'assets/links.php'; ?>
 </head>
 <body>
+<header>
+	<a class="homeLink" href="index.php">Take Me Home!</a>
+</header>
 <div roll="main" class=<?php echo "\"taco ".$tacoExtraClasses."\""; ?>>
 	<h1><?php echo $heading; ?></h1>
 	
 	<?php include $contentGo; ?>
 	       
 </div>
+<footer>
+	<?php echo used($usedPlugins); ?>
+</footer>
 	<script>
 		<?php echo $jsGo; ?>
 	</script>

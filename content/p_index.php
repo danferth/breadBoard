@@ -7,6 +7,7 @@
 	<h2>Links to <em>Test Pages</em></h2>
 	
 	<ul>
+		<li><a href="quick.php">Quick &amp; Dirty</a></li>
 		<li><a href="dingdong.php">Ding Dong</a></li>
 		<li><a href="linkTest.php">linkTest</a></li>
 		<li><a href="pTag.php">pTag</a></li>

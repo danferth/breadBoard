@@ -5,7 +5,7 @@ $bowerLocation = "assets/components";
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <?php 
 /*jQuery plugins to be loaded from boolean
-As new plugins are added for testing: add to STEP 1 & 2 for fuctionality */
+As new plugins are added for testing: add to STEP 1 & 2 for fuctionality & add to array on STEP 4 */
 
 //STEP 1 check if variable exsist since plugins added may not be set on earlier pages
 if (!isset($fitText)) {$fitText = false;}
@@ -30,7 +30,16 @@ echo jsCheck($prism, 'assets', 'coffee', 'prism.js');
 if ($prism == true) {
 	echo "<link rel=\"stylesheet\" href=\"assets/coffee/prism.css\">";
 }
-
+//STEP 4 for footer documentation
+$usedPlugins = array('fitText.js' => $fitText, 'jquery.validate.js' => $validation, 'prism.js' => $prism);
+function used($pluginArray){
+	echo "<em>Plugins Used</em>: ";
+	foreach ($pluginArray as $key => $value) {
+		if ($value == true) {
+			echo $key." <span>|</span> ";
+		}
+	}
+}
 ?>
 
 <?php //REQUIRED CSS ?>
