@@ -11,7 +11,7 @@ $tacoExtraClasses = "";
 //main <h1>
 $heading = "Breadboard Testing";
 //name of file for main content
-$content = "p_index.html";
+$content = "p_index.php";
 //jQuery at bottom of page
 $jsFile = "";
 
@@ -20,6 +20,7 @@ $jsFile = "";
 //-------------------------------------------
 $fitText = false;
 $validation = false;
+$prism = false;
 
 
 

@@ -3,20 +3,33 @@ $bowerLocation = "assets/components";
 
  //jQuery at the top ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<?php //jQuery plugins to be loaded from boolean
+<?php 
+/*jQuery plugins to be loaded from boolean
+As new plugins are added for testing: add to STEP 1 & 2 for fuctionality */
 
-//this function checks for ture/false in plugin variables then loads plugin if needed
-function jsCheck ($jsInQuestion, $folder, $file){
-	$bowerLocation = "assets/components";  //need to find a way to have $bowerLocation work out of scope
-	if ($jsInQuestion == false) {
-		//do nothing plugin is inactive
+//STEP 1 check if variable exsist since plugins added may not be set on earlier pages
+if (!isset($fitText)) {$fitText = false;}
+if (!isset($validation)) {$validation = false;}
+if (!isset($prism)) {$prism = false;}
+//STEP 2 this function checks for ture/false in plugin variables then loads plugin if needed
+function jsCheck ($jsInQuestion, $assetLocation, $folder, $file){
+	if (!isset($jsInQuestion)) {
+		$jsInQuestion = false;
 	}else{
-		echo "<script src=\"".$bowerLocation."/".$folder."/".$file."\"></script>";
+		if ($jsInQuestion == false) {
+			//do nothing plugin is inactive
+		}else{
+			echo "<script src=\"".$assetLocation."/".$folder."/".$file."\"></script>";
+		}
 	}
 }
-//call installed plugins
-echo jsCheck($fitText, 'FitText.js', 'jquery.fittext.js');
-echo jsCheck($validation, 'jquery.validation', 'jquery.validate.js');
+//STEP 3 call installed plugins
+echo jsCheck($fitText, $bowerLocation, 'FitText.js', 'jquery.fittext.js');
+echo jsCheck($validation, $bowerLocation, 'jquery.validation', 'jquery.validate.js');
+echo jsCheck($prism, 'assets', 'coffee', 'prism.js');
+if ($prism == true) {
+	echo "<link rel=\"stylesheet\" href=\"assets/coffee/prism.css\">";
+}
 
 ?>
 

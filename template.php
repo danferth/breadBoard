@@ -1,11 +1,11 @@
 <?php 
 //setting content location and GO variable
 $contentLocation = "content";
-$contentFile = $contentLocation."/".$content;
-$contentGo = file_get_contents($contentFile);
+$contentGo = $contentLocation."/".$content;
+
 
 //setting js location and GO variable
-$jsLocation = "coffee";
+$jsLocation = "assets/coffee";
 $js = $jsLocation."/".$jsFile;
 $jsGo = "";
 if ($jsFile == "") {
@@ -29,7 +29,7 @@ $jsGo = file_get_contents($js);
 <div roll="main" class=<?php echo "\"taco ".$tacoExtraClasses."\""; ?>>
 	<h1><?php echo $heading; ?></h1>
 	
-	<?php echo $contentGo; ?>
+	<?php include $contentGo; ?>
 	       
 </div>
 	<script>
