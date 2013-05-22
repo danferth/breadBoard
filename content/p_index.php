@@ -11,4 +11,5 @@
 		<li><a href="dingdong.php">Ding Dong</a></li>
 		<li><a href="linkTest.php">linkTest</a></li>
 		<li><a href="pTag.php">pTag</a></li>
+		<li><a href="login.php">login</a></li>
 	</ul>
