@@ -1,0 +1,9 @@
+span.status {
+  color: red; }
+
+.move {
+  width: 300px;
+  height: 1.5em;
+  border: 1px solid #666666;
+  background: black;
+  margin-bottom: 2em; }
