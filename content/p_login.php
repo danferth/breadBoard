@@ -16,6 +16,8 @@ if (isset($_REQUEST['attempt'])) {
 			//go to index.php or....
 			$server_dir = $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['PHP_SELF']), '/\\') . '/';
 			$next_page = 'index.php';
+			/* The header() function sends a HTTP message The 303 code asks the server to use GET when redirecting to another page */
+			header('HTTP/1.1 303 See Other');
 			header('Location: http://' . $server_dir . $next_page);
 		}elseif ($stripedInput != $password) {
 			//if not display error
