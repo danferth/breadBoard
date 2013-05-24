@@ -7,7 +7,7 @@ the template with add the starting <h1> under that you will need:
 
 testing code...
 
-<h3>Conclusion</h3>
+<h3>conclusion</h3>
  	     <ol>
  	     	<li></li>
  	     </ol>
