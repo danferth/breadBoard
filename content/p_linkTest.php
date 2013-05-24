@@ -30,4 +30,5 @@
  	     <ol>
  	     	<li>works best with more than needed amount of links</li>
  	     	<li>Start with <code>0</code></code>
- 	     </li>    
+ 	     </li> 
+ 	     </ol>   

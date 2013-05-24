@@ -5,7 +5,7 @@
 $title = "Quick &amp; Dirty";
 $description = "Supper Fast test";
 //page css (if needed)
-$extraCSS = "";
+$extraCSS = "css_quick.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>

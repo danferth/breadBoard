@@ -49,3 +49,4 @@ echo checkPass();
  	     	<li>Compair to password set in variable</li>
  	     	<li>if yes then go to index.php</li>
  	     	<li>If not then display error</li> 
+ 	     </ol>
