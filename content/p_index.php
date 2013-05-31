@@ -12,4 +12,5 @@
 		<li><a href="pTag.php">pTag</a></li>
 		<li><a href="login.php">login</a></li>
 		<li><a href="mouse.php">Mouse Postion</a></li>
+		<li><a href="didI.php">Did I? (APP)</a></li>
 	</ul>

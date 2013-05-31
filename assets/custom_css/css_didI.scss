@@ -1,0 +1,102 @@
+$unchecked:   rgb(5,68,5);
+$checked:     rgb(142,213,59);
+$first-glow:  rgb(180,252,71);
+$second-glow: rgb(88,169,18);
+$bar-width:   75%;
+
+
+*{box-sizing:border-box;}
+html, body{height:100%; width:100%; padding-top:100px;}
+body{background:darken(white, 90%);}
+.taco{width:100%; height:100%;}
+ul.progress{
+  margin: 0 auto;
+  width:$bar-width;
+  padding:0;
+ // border:1px dotted white;
+  &:after{
+    content:"";
+      clear:both;
+      display:table;
+  }
+  li{
+    list-style:none;
+    background:$unchecked;
+   // width:18.4%;
+    height:2em;
+    float:left;
+    margin-right:2%;
+    animation:pulse 4s infinite linear;
+    &:first-child{
+      border-radius:2em 0 0 2em;
+      }
+     &:last-child{
+       border-radius:0 2em 2em 0;
+          margin-right:0;
+      }
+  }
+}
+
+ul.progress li.checked{
+  background:$checked;
+  background:linear-gradient(to bottom, $checked 20%, lighten($checked,10%) 40%, lighten($checked,10%) 60%, $checked 80%);
+  box-shadow:
+    0 0 10px 4px rgba($second-glow,.5),
+    0 0 2px 1px $first-glow;
+  animation:none;
+  
+}
+
+ul.list{
+  margin:10% auto 0 auto;
+  padding:0;
+  //border:1px dotted white;
+  width:95%;
+  li{
+    list-style:none;
+    color:darken(white,50%);
+    padding:8px 0px;
+    background: linear-gradient(
+      to bottom,
+      darken(white,85%) 10%,
+      darken(white,90%) 30%,
+      darken(white,90%) 70%,
+      darken(white,85%) 90%);
+    margin-bottom:3px;
+    text-align:center;
+    font:bold 1em sans-serif;
+    text-transform:uppercase;
+    text-shadow:0 1px darken(white, 100%);
+    cursor:pointer;
+    &:hover{
+      background: linear-gradient(
+      to bottom,
+      darken(white,80%) 10%,
+      darken(white,85%) 30%,
+      darken(white,90%) 70%,
+      darken(white,85%) 90%);
+        color:darken(white,40%);
+        text-shadow:0 1px darken(white,90%);
+      }
+  }
+}
+
+.complete{
+  width:30%;
+  height:2.5em;
+  color:$checked;
+  background:$unchecked;
+  font:bold 2em/2.5em sans-serif;
+  text-transform:uppercase;
+  text-align:center;
+  margin:8% auto 0 auto;
+  display:none;
+  
+}
+
+@keyframes pulse{
+  0%{background:darken($unchecked, 0%);}
+  50%{background:darken($unchecked,4%);}
+}
+
+

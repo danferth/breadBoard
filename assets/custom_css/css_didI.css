@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding-top: 100px; }
+
+body {
+  background: #1a1a1a; }
+
+.taco {
+  width: 100%;
+  height: 100%; }
+
+ul.progress {
+  margin: 0 auto;
+  width: 75%;
+  padding: 0; }
+  ul.progress:after {
+    content: "";
+    clear: both;
+    display: table; }
+  ul.progress li {
+    list-style: none;
+    background: #054405;
+    height: 2em;
+    float: left;
+    margin-right: 2%;
+    animation: pulse 4s infinite linear; }
+    ul.progress li:first-child {
+      border-radius: 2em 0 0 2em; }
+    ul.progress li:last-child {
+      border-radius: 0 2em 2em 0;
+      margin-right: 0; }
+
+ul.progress li.checked {
+  background: #8ed53b;
+  background: linear-gradient(to bottom, #8ed53b 20%, #a6de65 40%, #a6de65 60%, #8ed53b 80%);
+  box-shadow: 0 0 10px 4px rgba(88, 169, 18, 0.5), 0 0 2px 1px #b4fc47;
+  animation: none; }
+
+ul.list {
+  margin: 10% auto 0 auto;
+  padding: 0;
+  width: 95%; }
+  ul.list li {
+    list-style: none;
+    color: gray;
+    padding: 8px 0px;
+    background: linear-gradient(to bottom, #262626 10%, #1a1a1a 30%, #1a1a1a 70%, #262626 90%);
+    margin-bottom: 3px;
+    text-align: center;
+    font: bold 1em sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 1px black;
+    cursor: pointer; }
+    ul.list li:hover {
+      background: linear-gradient(to bottom, #333333 10%, #262626 30%, #1a1a1a 70%, #262626 90%);
+      color: #999999;
+      text-shadow: 0 1px #1a1a1a; }
+
+.complete {
+  width: 30%;
+  height: 2.5em;
+  color: #8ed53b;
+  background: #054405;
+  font: bold 2em/2.5em sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 8% auto 0 auto;
+  display: none; }
+
+@keyframes pulse {
+  0% {
+    background: #054405; }
+
+  50% {
+    background: #043104; } }
