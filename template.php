@@ -23,6 +23,7 @@ $jsGo = file_get_contents($js);
 	<title><?php echo $title; ?></title>
 	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 	<meta name="description" content=<?php echo "\"".$description."\""; ?>>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 	<?php include 'assets/links.php'; ?>
 </head>
 <body>
