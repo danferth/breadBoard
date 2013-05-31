@@ -9,7 +9,7 @@ $extraCSS = "css_didI.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "Did I?";
+$heading = "Did I? a ToDo APP idea for the Absent Minded";
 //name of file for main content
 $content = "p_didI.php";
 //jQuery at bottom of page
