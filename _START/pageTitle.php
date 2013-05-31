@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "";
 $description = "";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "";
 //Extra Classes to div.taco
@@ -14,6 +15,11 @@ $heading = "";
 $content = "";
 //jQuery at bottom of page
 $jsFile = "";
+
+//-------------------------------------------
+//SET OPTIONS
+//-------------------------------------------
+$mobileOption = false;
 
 //-------------------------------------------
 //SET JS PLUGINS

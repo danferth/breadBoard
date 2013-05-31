@@ -9,7 +9,7 @@ $jsLocation = "assets/coffee";
 $js = $jsLocation."/".$jsFile;
 $jsGo = "";
 if ($jsFile == "") {
-	$jsGo = "//No jQuery loaded into page";
+	$jsGo = "<!-- No jQuery loaded into page -->";
 }else{
 $jsGo = file_get_contents($js);
 }
@@ -23,8 +23,24 @@ $jsGo = file_get_contents($js);
 	<title><?php echo $title; ?></title>
 	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 	<meta name="description" content=<?php echo "\"".$description."\""; ?>>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-	<?php include 'assets/links.php'; ?>
+<?php
+
+	if (isset($mobileOption) && $mobileOption == true) {
+		echo "<meta name=\"viewport\" content=\"width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;\" />";
+	}else{
+		echo "<!-- mobile options not set -->";
+	}
+	
+
+	 
+	if (isset($extraHead) && $extraHead != "") {
+		echo $extraHead;
+	}else{
+		echo "<!-- no extra head stuff -->";
+	}
+
+
+	include 'assets/links.php'; ?>
 </head>
 <body>
 <header>

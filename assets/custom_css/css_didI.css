@@ -3,11 +3,14 @@
 
 html, body {
   height: 100%;
-  width: 100%;
-  padding-top: 100px; }
+  width: 100%; }
 
 body {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+  padding: 0; }
+
+h1 {
+  display: none; }
 
 .taco {
   width: 100%;
