@@ -1,4 +1,3 @@
-
 <ul class="progress">
   <li></li>
   <li></li>
