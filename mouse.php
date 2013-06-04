@@ -16,6 +16,11 @@ $content = "p_mousePosition.php";
 $jsFile = "js_mousePosition.js";
 
 //-------------------------------------------
+//SET OPTIONS
+//-------------------------------------------
+$mobileOption = false;
+
+//-------------------------------------------
 //SET JS PLUGINS
 //-------------------------------------------
 $fitText = false;
