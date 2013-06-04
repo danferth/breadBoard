@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "Get URL values with jQuery";
 $description = "use GET variable in jQuery";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "";
 //Extra Classes to div.taco

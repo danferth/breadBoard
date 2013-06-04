@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "pTag test";
 $description = "why does my site generate a p tag";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "";
 //Extra Classes to div.taco

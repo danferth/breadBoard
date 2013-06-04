@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "random links";
 $description = "Random links on load and refresh";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "";
 //Extra Classes to div.taco

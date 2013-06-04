@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "Breadboard";
 $description = "Breadboard for code ideas and bug discovery";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "";
 //Extra Classes to div.taco

@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "Login";
 $description = "PHP login somewhat rude but works";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "";
 //Extra Classes to div.taco

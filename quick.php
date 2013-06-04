@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "Quick &amp; Dirty";
 $description = "Supper Fast test";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "css_quick.css";
 //Extra Classes to div.taco

@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "Did I?";
 $description = "Simple todo app";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "css_didI.css";
 //Extra Classes to div.taco

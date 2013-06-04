@@ -4,6 +4,7 @@
 //-------------------------------------------
 $title = "Mouse Position";
 $description = "Finding Mouse Position and doing stuff with the data";
+$extraHead = "";
 //page css (if needed)
 $extraCSS = "css_mouse.css";
 //Extra Classes to div.taco
