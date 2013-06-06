@@ -1,0 +1,19 @@
+.tiles{
+	background: darken(white,50%);
+	padding:1% 0 0 1%;
+	&:after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+}
+.tile{
+	width:9%;
+	height:7em;
+	margin:0 1% 1% 0;
+	background: darken(white, 15%);
+	float:left;
+	&:hover{
+		background:darken(white,20%);
+	}
+}

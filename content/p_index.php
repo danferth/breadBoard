@@ -13,4 +13,5 @@
 		<li><a href="login.php">login</a></li>
 		<li><a href="mouse.php">Mouse Postion</a></li>
 		<li><a href="didI.php">Did I? (APP)</a></li>
+		<li><a href="tiles.php">Animated Tiles</a></li>
 	</ul>

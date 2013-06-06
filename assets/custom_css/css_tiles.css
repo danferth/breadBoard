@@ -1,0 +1,16 @@
+.tiles {
+  background: gray;
+  padding: 1% 0 0 1%; }
+  .tiles:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.tile {
+  width: 9%;
+  height: 7em;
+  margin: 0 1% 1% 0;
+  background: #d9d9d9;
+  float: left; }
+  .tile:hover {
+    background: #cccccc; }
