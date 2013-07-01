@@ -14,4 +14,5 @@
 		<li><a href="mouse.php">Mouse Postion</a></li>
 		<li><a href="didI.php">Did I? (APP)</a></li>
 		<li><a href="tiles.php">Animated Tiles</a></li>
+        <li><a href="phpoptions.php">select tag &amp; php</a></li>
 	</ul>

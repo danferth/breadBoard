@@ -10,7 +10,7 @@ $extraCSS = "css_phpoptions.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "<select> Dynamically Populated with php";
+$heading = "select tag Dynamically Populated with php";
 //name of file for main content
 $content = "p_phpoptions.php";
 //jQuery at bottom of page
