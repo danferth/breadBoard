@@ -16,12 +16,36 @@
 <option value="2020">2020</option>
 </select>
 
-<h3><code>php</code> way</h3>
+<h3><code>php for</code> way</h3>
 
+<?php 
+
+$currentYear = date(Y);
+echo "<select name='second'>";
+for($i=0; $i<=7; $i++){ 
+    $year = $currentYear + $i;
+echo "<option value='".$year."'>".$year."</option>/n";
+}
+echo "</select>";
+?>
+
+<h3><code>php foreach(range())</code> way</h3>
+
+<?php
+$startYear = date(Y);
+echo "<select name='second'>";
+foreach(range($startYear, $startYear + 7) as $number){
+    echo "<option value='".$number."'>".$number."</option>/n";
+}
+echo "</select>";
+
+?>
 
 <h3>conclusion</h3>
  	     <ol>
- 	     	<li></li>
+ 	     	<li><code>date()</code> creates an integer not a string</li>
+            <li>can use for statment with year as variable</li>
+            <li>also can use <code>range()</code> function to solve problem</li>
  	     </ol>
 
  
