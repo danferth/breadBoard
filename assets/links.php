@@ -44,7 +44,7 @@ function used($pluginArray){
 
 <?php //REQUIRED CSS ?>
 <?php echo "<link rel=\"stylesheet\" href=\"".$bowerLocation."/normalize-css/normalize.css\">";?>
-<link rel="stylesheet" href="assets/css/style.css" media="all" type="text/css">
+<link rel="stylesheet" href="<?php echo $root; ?>/assets/css/style.css" media="all" type="text/css">
 
 <?php 
 //extra css for page
@@ -52,7 +52,7 @@ function used($pluginArray){
 if ($extraCSS == "") {
 	echo "<!--NO custom css on this page -->";
 }else{
- echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/custom_css/".$extraCSS."\">";
+ echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"".$root."assets/custom_css/".$extraCSS."\">";
 }
 ?>
   

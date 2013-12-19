@@ -2,19 +2,19 @@
 //-------------------------------------------
 //fill in these variables for page
 //-------------------------------------------
-$title = "dynamic options in form";
-$description = "create a select form element for date options and using php to auto populate it from current year and next 7 years";
+$title = "Mouse Position";
+$description = "Finding Mouse Position and doing stuff with the data";
 $extraHead = "";
 //page css (if needed)
-$extraCSS = "css_phpoptions.css";
+$extraCSS = "css_mouse.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "select tag Dynamically Populated with php";
+$heading = "Find the Cursor";
 //name of file for main content
-$content = "p_phpoptions.php";
+$content = "p_mousePosition.php";
 //jQuery at bottom of page
-$jsFile = "";
+$jsFile = "js_mousePosition.js";
 
 //-------------------------------------------
 //SET OPTIONS
@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>

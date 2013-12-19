@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>

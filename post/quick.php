@@ -2,19 +2,19 @@
 //-------------------------------------------
 //fill in these variables for page
 //-------------------------------------------
-$title = "Get URL values with jQuery";
-$description = "use GET variable in jQuery";
+$title = "Quick &amp; Dirty";
+$description = "Supper Fast test";
 $extraHead = "";
 //page css (if needed)
-$extraCSS = "";
+$extraCSS = "css_quick.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "This is the Ding Dong test";
+$heading = "Just a Quick &amp; Dirty Test";
 //name of file for main content
-$content = "p_dingdong.php";
+$content = "p_quick.php";
 //jQuery at bottom of page
-$jsFile = "js_dingdong.js";
+$jsFile = "js_quick.js";
 
 //-------------------------------------------
 //SET OPTIONS
@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>

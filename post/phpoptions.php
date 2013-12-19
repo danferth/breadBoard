@@ -2,19 +2,19 @@
 //-------------------------------------------
 //fill in these variables for page
 //-------------------------------------------
-$title = "Animated Tiles";
-$description = "Playing with grid of animated tiles and hover states";
+$title = "dynamic options in form";
+$description = "create a select form element for date options and using php to auto populate it from current year and next 7 years";
 $extraHead = "";
 //page css (if needed)
-$extraCSS = "css_tiles.css";
+$extraCSS = "css_phpoptions.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "Animated Tiles (Hover States)";
+$heading = "select tag Dynamically Populated with php";
 //name of file for main content
-$content = "p_tiles.php";
+$content = "p_phpoptions.php";
 //jQuery at bottom of page
-$jsFile = "js_tiles.js";
+$jsFile = "";
 
 //-------------------------------------------
 //SET OPTIONS
@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>

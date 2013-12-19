@@ -2,24 +2,24 @@
 //-------------------------------------------
 //fill in these variables for page
 //-------------------------------------------
-$title = "random links";
-$description = "Random links on load and refresh";
+$title = "Did I?";
+$description = "Simple todo app";
 $extraHead = "";
 //page css (if needed)
-$extraCSS = "";
+$extraCSS = "css_didI.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "Random Links from PHP Array";
+$heading = "Did I? a ToDo APP idea for the Absent Minded";
 //name of file for main content
-$content = "p_linkTest.php";
+$content = "p_didI.php";
 //jQuery at bottom of page
-$jsFile = "";
+$jsFile = "js_didI.js";
 
 //-------------------------------------------
 //SET OPTIONS
 //-------------------------------------------
-$mobileOption = false;
+$mobileOption = true;
 
 //-------------------------------------------
 //SET JS PLUGINS
@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>

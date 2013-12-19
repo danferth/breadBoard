@@ -1,11 +1,13 @@
 <?php 
+//$root = $_SERVER['DOCUMENT_ROOT'];
+$root = 'http://localhost/www/testingboard/';
 //setting content location and GO variable
 $contentLocation = "content";
 $contentGo = $contentLocation."/".$content;
 
 
 //setting js location and GO variable
-$jsLocation = "assets/coffee";
+$jsLocation = $root."/assets/coffee";
 $js = $jsLocation."/".$jsFile;
 $jsGo = "";
 if ($jsFile == "") {
@@ -14,7 +16,6 @@ if ($jsFile == "") {
 $jsGo = file_get_contents($js);
 }
  ?>
-
 
 <!doctype html>
 <html lang="en">
@@ -44,7 +45,7 @@ $jsGo = file_get_contents($js);
 </head>
 <body>
 <header>
-	<a class="homeLink" href="index.php">Take Me Home!</a>
+	<a class="homeLink" href="<?php echo $root; ?>/index.php">Take Me Home!</a>
 </header>
 <div roll="main" class=<?php echo "\"taco ".$tacoExtraClasses."\""; ?>>
 	<h1><?php echo $heading; ?></h1>

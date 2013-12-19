@@ -2,19 +2,19 @@
 //-------------------------------------------
 //fill in these variables for page
 //-------------------------------------------
-$title = "Login";
-$description = "PHP login somewhat rude but works";
+$title = "Animated Tiles";
+$description = "Playing with grid of animated tiles and hover states";
 $extraHead = "";
 //page css (if needed)
-$extraCSS = "";
+$extraCSS = "css_tiles.css";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "Log in";
+$heading = "Animated Tiles (Hover States)";
 //name of file for main content
-$content = "p_login.php";
+$content = "p_tiles.php";
 //jQuery at bottom of page
-$jsFile = "";
+$jsFile = "js_tiles.js";
 
 //-------------------------------------------
 //SET OPTIONS
@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>

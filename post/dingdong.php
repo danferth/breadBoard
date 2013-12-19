@@ -2,19 +2,19 @@
 //-------------------------------------------
 //fill in these variables for page
 //-------------------------------------------
-$title = "Mouse Position";
-$description = "Finding Mouse Position and doing stuff with the data";
+$title = "Get URL values with jQuery";
+$description = "use GET variable in jQuery";
 $extraHead = "";
 //page css (if needed)
-$extraCSS = "css_mouse.css";
+$extraCSS = "";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "Find the Cursor";
+$heading = "This is the Ding Dong test";
 //name of file for main content
-$content = "p_mousePosition.php";
+$content = "p_dingdong.php";
 //jQuery at bottom of page
-$jsFile = "js_mousePosition.js";
+$jsFile = "js_dingdong.js";
 
 //-------------------------------------------
 //SET OPTIONS
@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>

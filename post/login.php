@@ -2,19 +2,19 @@
 //-------------------------------------------
 //fill in these variables for page
 //-------------------------------------------
-$title = "Quick &amp; Dirty";
-$description = "Supper Fast test";
+$title = "Login";
+$description = "PHP login somewhat rude but works";
 $extraHead = "";
 //page css (if needed)
-$extraCSS = "css_quick.css";
+$extraCSS = "";
 //Extra Classes to div.taco
 $tacoExtraClasses = "";
 //main <h1>
-$heading = "Just a Quick &amp; Dirty Test";
+$heading = "Log in";
 //name of file for main content
-$content = "p_quick.php";
+$content = "p_login.php";
 //jQuery at bottom of page
-$jsFile = "js_quick.js";
+$jsFile = "";
 
 //-------------------------------------------
 //SET OPTIONS
@@ -35,5 +35,5 @@ $prism = false;
 //-------------------------------------------
 
 //include template
-include 'template.php';
+include '../template.php';
 ?>
