@@ -1,5 +1,21 @@
 breadboard
 ============
+
+------------
+**this project has been discontinued**  I started from the ground up and reopend the project in (bp-php)[https://github.com/danferth/bp-php] it will be a `PHP` based boilerplate for use in simple websites.  It includes:
+
+- databases
+- sessions (optional on each page)
+- pretty URLs
+- secure login
+- ....
+ 
+------------
+
+
+
+
+
 ____
 A **breadboard** *(or protoboard)* is a construction base for prototyping of electronics. The term "breadboard" is commonly used to refer to a solderless breadboard *(plugboard)*.
 
