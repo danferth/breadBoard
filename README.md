@@ -2,7 +2,7 @@ breadboard
 ============
 
 ------------
-**this project has been discontinued**  I started from the ground up and reopend the project in (bp-php)[https://github.com/danferth/bp-php] it will be a `PHP` based boilerplate for use in simple websites.  It includes:
+**this project has been discontinued**  I started from the ground up and reopend the project in [bp-php](https://github.com/danferth/bp-php) it will be a `PHP` based boilerplate for use in simple websites.  It includes:
 
 - databases
 - sessions (optional on each page)
